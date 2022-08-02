@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Document</title>
+</head>
+
+<body class="container">
+    <header>
+        <div>
+            <div class="d-flex flex-row-reverse justify-content-center pt-4 pb-4 text-blue-b">
+                <p class="flex-grow-1 text-center fs-6 fw-normal-b  ">Kick counter</p>
+                <a href="#"> <svg class="flex-grow-0" width="18" height="16" viewBox="0 0 18 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17 8H1" stroke="#25396F" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M8 15L1 8L8 1" stroke="#25396F" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg></a>
+
+            </div>
+
+        </div>
+
+
+    </header>
+    <main>
+        <div class="bg-white d-flex flex-column rounded-2 px-3 pb-3">
+            <div class="gap-3 pt-4 ">
+
+
+                <form class="d-flex flex-column gap-3 pt-4  " action="">
+                    <label class="d-block" for="#">
+                        <p class="text-blue-dark">Symptoms</p>
+                    </label>
+                    <div class="d-flex search-box-a ">
+                        <input class="border-0 w-100 ps-3 py-2-25 w-100 search-box " type="search"
+                            placeholder="What’s your body telling you?">
+                        <button class="btn btn-blue-a d-flex align-items-center  py-0 me-1 my-1">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.22222 13.4444C10.6587 13.4444 13.4444 10.6587 13.4444 7.22222C13.4444 3.78578 10.6587 1 7.22222 1C3.78578 1 1 3.78578 1 7.22222C1 10.6587 3.78578 13.4444 7.22222 13.4444Z"
+                                    stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M15 15L11.6167 11.6167" stroke="white" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+
+
+                        </button>
+                    </div>
+
+
+
+                </form>
+
+            </div>
+
+
+            <div class=" d-flex flex-column pt-3 pb-3">
+                <p class="fs-7">Recent</p>
+                <div class="pt-2 ">
+
+                    <button id="btn" type="button" class="btn btn-outline-light fs-7  d-inline-flex gap-2">
+
+                        <p>nothing </p>
+                        <span class="bg-blue-dark rounded-circle px-1  tick">
+                            <svg width="9" height="7" viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 1L3.1049 6L1 4" stroke="white" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+                        </span>
+                    </button>
+                    <button id="btn" type="button" class="btn btn-outline-light fs-7  d-inline-flex gap-2">
+                        <p> fatisue / exhaustion</p>
+                        <span class="bg-blue-dark rounded-circle px-1 tick">
+                            <svg width="9" height="7" viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 1L3.1049 6L1 4" stroke="white" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+                        </span>
+                    </button>
+                    <button id="btn" type="button" class="btn btn-outline-light fs-7 d-inline-flex gap-2 ">
+                        <p>dizziness</p>
+                        <span class="bg-blue-dark rounded-circle px-1 tick">
+                            <svg width="9" height="7" viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 1L3.1049 6L1 4" stroke="white" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+                        </span>
+                    </button>
+                    <button id="btn" type="button" class="btn btn-outline-light fs-7 mt-2 d-inline-flex gap-2 ">
+                        <p> morning sickness / nausea</p>
+                        <span class="bg-blue-dark rounded-circle px-1 tick">
+                            <svg width="9" height="7" viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 1L3.1049 6L1 4" stroke="white" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+                        </span>
+                    </button>
+                    <button id="btn" type="button" class="btn btn-outline-light fs-7 mt-2 d-inline-flex gap-2 ">
+                        <p>shortness of breath</p>
+                        <span class="bg-blue-dark rounded-circle px-1 tick">
+                            <svg width="9" height="7" viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 1L3.1049 6L1 4" stroke="white" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+                        </span>
+                    </button>
+                    <button id="btn" type="button" class="btn btn-outline-light fs-7 mt-2 d-inline-flex gap-2 ">
+                        <p>acen</p>
+                        <span class="bg-blue-dark rounded-circle px-1 tick">
+                            <svg width="9" height="7" viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 1L3.1049 6L1 4" stroke="white" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+                        </span>
+                    </button>
+
+                </div>
+
+
+
+            </div>
+            <div class="d-flex flex-column border-top">
+
+                <div>
+                    <p class="text-pink py-3">
+                        Medications
+                    </p>
+                    <div class="d-flex search-box-b ">
+                        <input class="border-0 w-100 ps-3 py-2-25 w-100 search-box " type="search"
+                            placeholder="What did you take?">
+                        <button class="btn btn-pink-less  d-flex align-items-center  py-0 me-1 my-1">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.22222 13.4444C10.6587 13.4444 13.4444 10.6587 13.4444 7.22222C13.4444 3.78578 10.6587 1 7.22222 1C3.78578 1 1 3.78578 1 7.22222C1 10.6587 3.78578 13.4444 7.22222 13.4444Z"
+                                    stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M15 15L11.6167 11.6167" stroke="white" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+
+
+                        </button>
+                    </div>
+                    <div class=" d-flex flex-column pt-3 pb-3">
+                        <p class="fs-7 fw-normal-b">Recent</p>
+                        <div class="pt-2 ">
+
+                            <button id="btn" type="button"
+                                class="btn btn-outline-light-b fs-7  d-inline-flex gap-2 mt-2">
+
+                                <p>Benadryl </p>
+                                <span class="bg-pink-less rounded-circle px-1  tick">
+                                    <svg width="9" height="7" viewBox="0 0 9 7" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 1L3.1049 6L1 4" stroke="white" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+                                </span>
+                            </button>
+                            <button id="btn" type="button"
+                                class="btn btn-outline-light-b fs-7  d-inline-flex gap-2 mt-2">
+
+                                <p>Tylenol </p>
+                                <span class="bg-pink-less rounded-circle px-1  tick">
+                                    <svg width="9" height="7" viewBox="0 0 9 7" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 1L3.1049 6L1 4" stroke="white" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+                                </span>
+                            </button>
+                            <button id="btn" type="button"
+                                class="btn btn-outline-light-b fs-7  d-inline-flex gap-2 mt-2">
+
+                                <p>Endometrin </p>
+                                <span class="bg-pink-less rounded-circle px-1  tick">
+                                    <svg width="9" height="7" viewBox="0 0 9 7" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 1L3.1049 6L1 4" stroke="white" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+                                </span>
+                            </button>
+                            <button id="btn" type="button"
+                                class="btn btn-outline-light-b fs-7  d-inline-flex gap-2 mt-2">
+
+                                <p>Claritin </p>
+                                <span class="bg-pink-less rounded-circle px-1  tick">
+                                    <svg width="9" height="7" viewBox="0 0 9 7" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 1L3.1049 6L1 4" stroke="white" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+                                </span>
+                            </button>
+
+
+                        </div>
+                        <div class="pt-3">
+
+                            <p class="fs-7 fw-normal-b">Selected</p>
+                            <button id="btn" type="button"
+                                class="btn btn-outline-light-b fs-7  d-inline-flex gap-2 mt-2">
+
+                                <p>Benadryl </p>
+                                <span class="bg-pink-less rounded-circle   tick">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.5 14C11.0899 14 14 11.0899 14 7.5C14 3.91015 11.0899 1 7.5 1C3.91015 1 1 3.91015 1 7.5C1 11.0899 3.91015 14 7.5 14Z"
+                                            fill="#E7A1C5" />
+                                        <path d="M10 5L5 10" stroke="white" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M5 5L10 10" stroke="white" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+
+
+                                </span>
+                            </button>
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+            <div class="d-flex flex-column border-top pb-3">
+                <div>
+                    <p class="tesxt-blue-c py-3">
+                        Mood
+                    </p>
+                </div>
+                <div class="d-flex search-box-c ">
+                    <input class="border-0 w-100 ps-3 py-2-25 w-100 search-box " type="search"
+                        placeholder="What did you take?">
+                    <button class="btn btn-greenblue-less d-flex align-items-center  py-0 me-1 my-1">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.22222 13.4444C10.6587 13.4444 13.4444 10.6587 13.4444 7.22222C13.4444 3.78578 10.6587 1 7.22222 1C3.78578 1 1 3.78578 1 7.22222C1 10.6587 3.78578 13.4444 7.22222 13.4444Z"
+                                stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M15 15L11.6167 11.6167" stroke="white" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+
+
+
+                    </button>
+                </div>
+                <div class=" d-flex flex-column pt-3 pb-3">
+                    <p class="fs-7 fw-normal-b">Recent</p>
+                    <div class="pt-2 ">
+
+                        <button id="btn" type="button" class="btn btn-outline-light-c fs-7  d-inline-flex gap-2  mt-2">
+
+                            <p>calm </p>
+                            <span class="bg-greenblue-less rounded-circle px-1  tick">
+                                <svg width="9" height="7" viewBox="0 0 9 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 1L3.1049 6L1 4" stroke="white" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+
+                            </span>
+                        </button>
+                        <button id="btn" type="button" class="btn btn-outline-light-c fs-7  d-inline-flex gap-2 mt-2">
+
+                            <p>moody </p>
+                            <span class="bg-greenblue-less rounded-circle px-1  tick">
+                                <svg width="9" height="7" viewBox="0 0 9 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 1L3.1049 6L1 4" stroke="white" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+
+                            </span>
+                        </button>
+                        <button id="btn" type="button" class="btn btn-outline-light-c fs-7  d-inline-flex gap-2 mt-2">
+
+                            <p>in love </p>
+                            <span class="bg-greenblue-less rounded-circle px-1  tick">
+                                <svg width="9" height="7" viewBox="0 0 9 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 1L3.1049 6L1 4" stroke="white" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+
+                            </span>
+                        </button>
+                        <button id="btn" type="button" class="btn btn-outline-light-c fs-7  d-inline-flex gap-2 mt-2">
+
+                            <p>weepy </p>
+                            <span class="bg-greenblue-less rounded-circle px-1  tick">
+                                <svg width="9" height="7" viewBox="0 0 9 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 1L3.1049 6L1 4" stroke="white" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+
+                            </span>
+                        </button>
+                        <button id="btn" type="button" class="btn btn-outline-light-c fs-7  d-inline-flex gap-2 mt-2">
+
+                            <p>worried </p>
+                            <span class="bg-greenblue-less rounded-circle px-1  tick">
+                                <svg width="9" height="7" viewBox="0 0 9 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 1L3.1049 6L1 4" stroke="white" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+
+                            </span>
+                        </button>
+                        <button id="btn" type="button" class="btn btn-outline-light-c fs-7  d-inline-flex gap-2 mt-2">
+
+                            <p>angry </p>
+                            <span class="bg-greenblue-less rounded-circle px-1  tick">
+                                <svg width="9" height="7" viewBox="0 0 9 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 1L3.1049 6L1 4" stroke="white" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+
+                            </span>
+                        </button>
+                        <button id="btn" type="button" class="btn btn-outline-light-c fs-7  d-inline-flex gap-2 mt-2">
+
+                            <p>overwhelmed </p>
+                            <span class="bg-greenblue-less rounded-circle px-1  tick">
+                                <svg width="9" height="7" viewBox="0 0 9 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 1L3.1049 6L1 4" stroke="white" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+
+                            </span>
+                        </button>
+                    </div>
+
+
+                </div>
+                <div class="pt-3">
+                    <p class="fs-7 fw-normal-b pb-2">
+                        Selected
+                    </p>
+
+                    <button id="btn" type="button" class="btn btn-outline-light-c fs-7  d-inline-flex gap-2">
+
+                        <p>moody </p>
+                        <span class=" rounded-circle  tick">
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.5 13C11.0899 13 14 10.0899 14 6.5C14 2.91015 11.0899 0 7.5 0C3.91015 0 1 2.91015 1 6.5C1 10.0899 3.91015 13 7.5 13Z"
+                                    fill="#6AB6B9" />
+                                <path d="M10 4L5 9" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M5 4L10 9" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+
+                        </span>
+                    </button>
+                    <button id="btn" type="button" class="btn btn-outline-light-c fs-7  d-inline-flex gap-2">
+
+                        <p>calm </p>
+                        <span class="rounded-circle  tick">
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.5 13C11.0899 13 14 10.0899 14 6.5C14 2.91015 11.0899 0 7.5 0C3.91015 0 1 2.91015 1 6.5C1 10.0899 3.91015 13 7.5 13Z"
+                                    fill="#6AB6B9" />
+                                <path d="M10 4L5 9" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M5 4L10 9" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+
+                        </span>
+                    </button>
+
+                </div>
+            </div>
+            <div class="d-flex flex-column border-top pt-3">
+                <div>
+                    <p class="text-green fw-normal-b fs-8 pb-2-5">
+                        Cycle length
+                    </p>
+                </div>
+                <div class="d-flex question-box-a ">
+                    <input class="border-0 w-100 ps-3 py-2-25 w-100 question-box " type="search" placeholder="24 Days">
+                    <button class="btn bg-green  d-flex align-items-center  py-0 me-1 my-1">
+                        <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M13.4444 2.59998H2.55556C1.69645 2.59998 1 3.31632 1 4.19998V15.4C1 16.2836 1.69645 17 2.55556 17H13.4444C14.3036 17 15 16.2836 15 15.4V4.19998C15 3.31632 14.3036 2.59998 13.4444 2.59998Z"
+                                stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M11.1111 1V4.2" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M4.88892 1V4.2" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M1 7.40002H15" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+
+
+
+                    </button>
+                </div>
+
+            </div>
+            <div class="d-flex flex-column border-top pt-3">
+                <div class="pb-2-5">
+                    <p class="text-greenblue fw-normal-b fs-8">
+                        Sleep
+                    </p>
+                </div>
+                <div class="d-flex question-box-b ">
+                    <input class="border-0 w-100 ps-3 py-2-25 w-100 question-box " type="search"
+                        placeholder=" 8.20 hrs">
+                    <button class="btn bg-greenblue  d-flex align-items-center  py-0 me-1 my-1">
+                        <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M13.4444 2.59998H2.55556C1.69645 2.59998 1 3.31632 1 4.19998V15.4C1 16.2836 1.69645 17 2.55556 17H13.4444C14.3036 17 15 16.2836 15 15.4V4.19998C15 3.31632 14.3036 2.59998 13.4444 2.59998Z"
+                                stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M11.1111 1V4.2" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M4.88892 1V4.2" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M1 7.40002H15" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+
+
+
+                    </button>
+                </div>
+
+            </div>
+            <div class="d-flex flex-column border-top pt-3">
+                <div class="pb-2-5">
+                    <p class="text-Purple-dark fw-normal-b fs-8 ">
+                        Temprature
+                    </p>
+                </div>
+                <div class="d-flex question-box-c ">
+                    <input class="border-0 w-100 ps-3 py-2-25 w-100 question-box " type="search" placeholder="94.34">
+                    <button class="btn bg-purple-dark  d-flex align-items-center  py-0 me-1 my-1">
+                        <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M2.85369 5.328C2.34169 5.328 1.89369 5.22667 1.50969 5.024C1.13635 4.81067 0.843021 4.52267 0.629688 4.16C0.416354 3.78667 0.309688 3.36 0.309688 2.88C0.309688 2.38933 0.411021 1.96267 0.613688 1.6C0.827021 1.22667 1.12035 0.938666 1.49369 0.735999C1.87769 0.522666 2.33102 0.415999 2.85369 0.415999C3.35502 0.415999 3.79769 0.522666 4.18169 0.735999C4.56569 0.938666 4.86435 1.22667 5.07769 1.6C5.29102 1.96267 5.39769 2.38933 5.39769 2.88C5.39769 3.36 5.29102 3.78667 5.07769 4.16C4.86435 4.52267 4.56569 4.81067 4.18169 5.024C3.79769 5.22667 3.35502 5.328 2.85369 5.328ZM2.86969 4.384C3.38169 4.384 3.75502 4.24533 3.98969 3.968C4.23502 3.69067 4.35769 3.328 4.35769 2.88C4.35769 2.57067 4.29902 2.304 4.18169 2.08C4.07502 1.84533 3.90969 1.664 3.68569 1.536C3.47235 1.408 3.20035 1.344 2.86969 1.344C2.34702 1.344 1.96302 1.48267 1.71769 1.76C1.47235 2.03733 1.34969 2.41067 1.34969 2.88C1.34969 3.328 1.47235 3.69067 1.71769 3.968C1.96302 4.24533 2.34702 4.384 2.86969 4.384ZM9.26544 12H7.82544V0.575999H14.2094V1.84H9.26544V5.888H13.9054V7.152H9.26544V12Z"
+                                fill="white" />
+                        </svg>
+
+
+
+
+
+                    </button>
+                </div>
+
+            </div>
+            <div class="d-flex flex-column border-top pt-3">
+                <div class=" pb-2-5">
+                    <p class="text-gray-d fw-normal-b fs-8">
+                        Weight
+                    </p>
+                </div>
+                <div class="d-flex question-box-d ">
+                    <input class="border-0 w-100 ps-3 py-2-25 w-100 question-box " type="search" placeholder="71.54">
+                    <button class="btn bg-gray  d-flex align-items-center  py-0 me-1 my-1">
+                        <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M1.55669 7.192C1.55669 7.36267 1.54602 7.58667 1.52469 7.864C1.51402 8.14133 1.50335 8.38133 1.49269 8.584H1.55669C1.62069 8.49867 1.71669 8.376 1.84469 8.216C1.97269 8.056 2.10069 7.896 2.22869 7.736C2.36735 7.56533 2.48469 7.42667 2.58069 7.32L5.31669 4.424H6.96469L3.49269 8.088L7.20469 13H5.50869L2.53269 9L1.55669 9.848V13H0.164688V0.839999H1.55669V7.192ZM11.7516 4.264C12.3169 4.264 12.8236 4.37067 13.2716 4.584C13.7302 4.79733 14.1196 5.12267 14.4396 5.56H14.5196L14.7116 4.424H15.8316V13.144C15.8316 13.9547 15.6929 14.632 15.4156 15.176C15.1382 15.7307 14.7169 16.1467 14.1516 16.424C13.5862 16.7013 12.8662 16.84 11.9916 16.84C11.3729 16.84 10.8022 16.792 10.2796 16.696C9.76756 16.6107 9.3089 16.4773 8.90356 16.296V15C9.1809 15.1387 9.4849 15.256 9.81556 15.352C10.1462 15.4587 10.5036 15.5387 10.8876 15.592C11.2716 15.6453 11.6662 15.672 12.0716 15.672C12.8076 15.672 13.3836 15.4533 13.7996 15.016C14.2262 14.5893 14.4396 14.0027 14.4396 13.256V12.92C14.4396 12.792 14.4449 12.6107 14.4556 12.376C14.4662 12.1307 14.4769 11.96 14.4876 11.864H14.4236C14.1249 12.3013 13.7516 12.6267 13.3036 12.84C12.8662 13.0533 12.3542 13.16 11.7676 13.16C10.6582 13.16 9.7889 12.7707 9.15956 11.992C8.5409 11.2133 8.23156 10.1253 8.23156 8.728C8.23156 7.81067 8.37023 7.02133 8.64756 6.36C8.93556 5.688 9.3409 5.17067 9.86356 4.808C10.3862 4.44533 11.0156 4.264 11.7516 4.264ZM11.9436 5.448C11.4636 5.448 11.0529 5.576 10.7116 5.832C10.3809 6.088 10.1249 6.46133 9.94356 6.952C9.7729 7.44267 9.68756 8.04 9.68756 8.744C9.68756 9.8 9.87956 10.6107 10.2636 11.176C10.6582 11.7307 11.2289 12.008 11.9756 12.008C12.4129 12.008 12.7862 11.9547 13.0956 11.848C13.4049 11.7307 13.6609 11.5547 13.8636 11.32C14.0662 11.0747 14.2156 10.7653 14.3116 10.392C14.4076 10.0187 14.4556 9.576 14.4556 9.064V8.728C14.4556 7.94933 14.3649 7.32 14.1836 6.84C14.0129 6.36 13.7409 6.008 13.3676 5.784C12.9942 5.56 12.5196 5.448 11.9436 5.448Z"
+                                fill="white" />
+                        </svg>
+
+
+
+
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        <div class="d-flex gap-2 flex-row-reverse py-4">
+            <button class="btn btn-outline-green px-4-5">
+                OK
+
+            </button>
+            <button class="btn btn-outline-green  px-4-5">
+                Cancel
+            </button>
+
+        </div>
+
+
+    </main>
+    <footer>
+
+    </footer>
+    <script>
+        const btns = document.getElementById("btn");
+        const tick = document.querySelector(".tick");
+
+        document.addEventListener('click', () => {
+            tick.style.display = "inline"
+        })
+    </script>
+
+</body>
+
+
+</html>
